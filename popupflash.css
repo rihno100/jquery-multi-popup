@@ -1,0 +1,41 @@
+body {margin:0px;}
+p {margin:0px;}
+li {list-style:none;}
+img {border:0;}
+*{margin:0; padding:0;}
+
+
+/*mutipopupflash*/
+#popupflash{position:relative; width:360px; height:624px; margin:10px; padding:0px;  border:solid 0px #000; overflow:hidden; z-index:9999;}
+#popupflash > .mb_ctn {position:absolute; top:0px; left:0px; width:360px; height:376px;  z-index:10; overflow:hidden;}
+#popupflash > .mb_ctn li{float:left; width:360px; height:375px;}
+#popupflash > .mb_tab {position:absolute; width:360px; height:250px; top:375px; line-height:30px; color:#666; background:#fff; z-index:20;}
+#popupflash > .mb_tab ul li{float:left; width:120px;  height:125px; color:#fff;/*border:solid 2px #fff;box-sizing:border-box;*/}
+#popupflash > .mb_tab ul li a img{width:100%:}
+.overTab {position:absolute; width:120px; height:125px; top:0px; left:0px; background:transparent; border:solid 5px #111; opacity:0.2; box-sizing:border-box; z-index:999;}
+#popupflash > .mb_tab ul li a img{width:100%;}
+
+
+/*mutipopupflash*/
+#popupflashbig{position:relative; width:820px; height:375px; margin:10px; padding:0px;  border:solid 0px #000; overflow:hidden; z-index:9999;}
+#popupflashbig > .mb_ctn {position:absolute; top:0px; left:0px; width:700px; height:376px;  z-index:10; overflow:hidden;}
+#popupflashbig > .mb_ctn li{float:left; width:700px; height:375px;}
+#popupflashbig > .mb_tab {position:absolute; width:120px; height:400px; right:0px; top:0px; line-height:30px; color:#666; background:#fff; z-index:20;}
+#popupflashbig > .mb_tab ul li{float:left; width:120px;  height:125px; color:#fff;/*border:solid 2px #fff;box-sizing:border-box;*/}
+#popupflashbig > .mb_tab ul li a img{width:100%:}
+.overTab {position:absolute; width:120px; height:125px; top:0px; left:0px; background:transparent; border:solid 5px #111; box-sizing:border-box; z-index:999;}
+#popupflash > .mb_tab ul li a img{width:100%;}
+
+
+
+
+
+
+/*.tabover{
+border-top:solid 4px #ff0000; box-sizing:border-box; 
+-ms-transition-duration:1s;
+-webkit-transition-duration:0.5s;
+-moz-transition-duration:0.5s;
+-o-transition-duration:0.5s;
+transition-duration:0.5s;
+}*/
